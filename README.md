@@ -14,8 +14,12 @@ Template:
 
 Template:
 ![Скриншот-1](https://github.com/GromDrn/zabbix-2/blob/main/Screenshots/2-3_Templ%20_my.png)
+
+---
 Status OK:
 ![Скриншот-2](https://github.com/GromDrn/zabbix-2/blob/main/Screenshots/2-3_Status_OK.jpg)
+
+---
 CPU & RAM:
 ![Скриншот-3](https://github.com/GromDrn/zabbix-2/blob/main/Screenshots/2-3_CPU%26RAM_value.png)
 
@@ -48,7 +52,7 @@ fi
 ``` 
 
 Latest Data:
-![Скриншот-1](ps://github.com/GromDrn/zabbix-2/blob/main/Screenshots/6-Latest_data.png)
+![Скриншот-1](https://github.com/GromDrn/zabbix-2/blob/main/Screenshots/6-Latest_data.png)
 
 
 ### Задание 7
@@ -77,6 +81,8 @@ else:
 
 Items setup:
 ![Скриншот-1](https://github.com/GromDrn/zabbix-2/blob/main/Screenshots/7-Items_setup.png)
+
+---
 
 Latest Data:
 ![Скриншот-2](https://github.com/GromDrn/zabbix-2/blob/main/Screenshots/7-Latest_Data.jpg)
