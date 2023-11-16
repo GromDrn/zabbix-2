@@ -4,7 +4,8 @@
 
 ### Задание 1
 
-`![Задание 1](https://github.com/GromDrn/zabbix-2/blob/main/Screenshots/1-Template.jpg)`
+Template:
+![Скриншот-1](https://github.com/GromDrn/zabbix-2/blob/main/Screenshots/1-Template.jpg)
 
 ---
 
