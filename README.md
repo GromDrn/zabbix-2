@@ -12,60 +12,84 @@ Template:
 ### Задание 2 - 3
 
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
-
+Template:
+![Скриншот-1](https://github.com/GromDrn/zabbix-2/blob/main/Screenshots/2-3_Templ%20_my.png)
+Status OK:
+![Скриншот-2](https://github.com/GromDrn/zabbix-2/blob/main/Screenshots/2-3_Status_OK.jpg)
+CPU & RAM:
+![Скриншот-3](https://github.com/GromDrn/zabbix-2/blob/main/Screenshots/2-3_CPU%26RAM_value.png)
 
 ---
 
 ### Задание 4
 
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
+Dashboard:
+![Скриншот-1](https://github.com/GromDrn/zabbix-2/blob/main/Screenshots/4-Dash.png)
+
 
 ### Задание 5
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
+MAP:
+![Скриншот-1](https://github.com/GromDrn/zabbix-2/blob/main/Screenshots/5-MAP.jpg)
+
 
 ### Задание 6
 
-```
-Поле для вставки кода...
-....
-....
-....
-....
+```bash
+!/bin/bash
+if [ "$1" = "1" ]; then
+    echo "Gromov AA"
+  elif [ "$1" = "2" ]; then
+    echo "$(date)"
+  else
+    echo "Unknown argument"
+fi
 ``` 
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
+Latest Data:
+![Скриншот-1](ps://github.com/GromDrn/zabbix-2/blob/main/Screenshots/6-Latest_data.png)
+
 
 ### Задание 7
 
-```
-Поле для вставки кода...
-....
-....
-....
-....
+```python
+
+import sys
+import os
+import re
+import datetime
+
+if (sys.argv[1] == '-ping'):
+        result=os.popen("ping -c 1 " + sys.argv[2]).read()
+        result=re.findall(r"time=(.*) ms", result)
+        print(result[0])
+elif (sys.argv[1] == '-simple_print'):
+    if sys.argv[2] == "1":
+         print("Gromov AA")
+    elif sys.argv[2] == "2":
+         print(datetime.datetime.now())
+    else:
+         print(sys.argv[2])     
+else: 
+    print(f"unknown input: {sys.argv[1]}")
 ``` 
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
+Items setup:
+![Скриншот-1](https://github.com/GromDrn/zabbix-2/blob/main/Screenshots/7-Items_setup.png)
+
+Latest Data:
+![Скриншот-2](https://github.com/GromDrn/zabbix-2/blob/main/Screenshots/7-Latest_Data.jpg)
+
+
 
 ### Задание 8
 
-```
-Поле для вставки кода...
-....
-....
-....
-....
-``` 
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
+Rules:
+![Скриншот-1](https://github.com/GromDrn/zabbix-2/blob/main/Screenshots/8%20rules.png)
+
+Discovery:
+![Скриншот-2](https://github.com/GromDrn/zabbix-2/blob/main/Screenshots/8%20diskovery.png)
 
 
